@@ -1,6 +1,6 @@
-import React, { version } from "react";
+import React from "react";
 import "./App.css";
-import New from "./components/new";
+import New from "./components/new.jsx";
 
 const fields = [
   { name: "field_name", label: "Name", type: "text" },

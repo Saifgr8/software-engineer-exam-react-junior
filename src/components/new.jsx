@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+//cannot create a component with new as its a reserved keyword
 const New = ({ text }) => {
    //state to maintain value of input prop
     const [changeText, setChangeText] = useState(text)
